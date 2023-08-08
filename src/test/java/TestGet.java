@@ -1,13 +1,13 @@
 import io.restassured.RestAssured;
 import org.apache.http.HttpStatus;
 import org.hamcrest.Matchers;
-import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 
 public class TestGet {
 
-    @Test
+    @org.junit.jupiter.api.Test
     @DisplayName("Тестирование запроса Get c проверкой status code = 200")
     public void getRequestCheckStatusCode() {
         RestAssured.given()
